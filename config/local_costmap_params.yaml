@@ -1,0 +1,16 @@
+local_costmap:
+  global_frame: odom
+  robot_base_frame: robot_footprint
+  width: 20.0
+  height: 20.0
+  resolution: 0.05
+  static_map: false
+  rolling_window: true
+  yaw_goal_tolerance: 0.5
+  xy_goal_tolerance: 0.5
+  meter_scoring: True
+  occdist_scale: 2
+  sim_time: 0.1
+  pdist_scale: 2
+  gdist_scale: 1
+  sim_granularity: 0.01
